@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object Detection Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            text-align: center;
+            margin-top: 50px;
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+            margin-top: 20px;
+            max-width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Object Detection Result</h1>
+    <h2>Original Image</h2>
+    <img src="{{ original_image }}" alt="Original Image">
+    <h2>Predicted Image</h2>
+    <img src="{{ annotated_image }}" alt="Predicted Image">
+</body>
+</html>
